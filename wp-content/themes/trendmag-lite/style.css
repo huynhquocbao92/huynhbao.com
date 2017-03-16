@@ -77,6 +77,10 @@ Tested up to: 4.6
     src: url("fonts/georgia-bold.eot"), url("fonts/georgia-bold.ttf"), url("fonts/georgia-bold.svg"), url("fonts/georgia-bold.otf");
 }
 
+/* Custom font family on 2017-03-16 */
+body {
+    font-family: Georgia,Times,serif;
+}
 /**
  * 1.2 - Global config
  * -------------------------------------------------------------------
@@ -143,7 +147,7 @@ img {
 
 h1, h2, h3, h4, h5, h6 {
     color: #000000;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -611,7 +615,7 @@ iframe, embed {
     font-size: 14px;
     line-height: 24px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     margin: 0 0 12px;
 }
@@ -641,7 +645,7 @@ iframe, embed {
     color: #000000;
     margin: 0 0 10px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -695,7 +699,7 @@ iframe, embed {
     line-height: 30px;
     color: #000000;
     margin: 0 0 16px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 900;
     text-transform: uppercase;
 }
@@ -724,7 +728,7 @@ iframe, embed {
     line-height: 22px;
     color: #000000;
     margin: 0 0 10px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -765,7 +769,7 @@ iframe, embed {
     line-height: 27px;
     color: #ffffff;
     margin: 0;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -786,7 +790,7 @@ iframe, embed {
     line-height: 24px;
     color: #000000;
     margin: 0;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -807,7 +811,7 @@ iframe, embed {
     line-height: 50px;
     color: #ffffff;
     margin: 0 0 15px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -824,7 +828,7 @@ iframe, embed {
     line-height: 28px;
     color: #ffffff;
     margin: 0 0 10px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -845,7 +849,7 @@ iframe, embed {
     line-height: 24px;
     color: #000000;
     margin: 0;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -867,7 +871,7 @@ iframe, embed {
     color: #000000;
     margin: 0 0 32px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -886,7 +890,7 @@ iframe, embed {
     max-width: 95%;
     text-align: center;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -904,7 +908,7 @@ iframe, embed {
     border-bottom: 1px solid #ededed;
     margin: 0 0 30px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -916,7 +920,7 @@ iframe, embed {
     border-bottom: 1px solid #ededed;
     margin: 0 0 30px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -927,7 +931,7 @@ iframe, embed {
     padding: 50px 0 35px;
     margin: 0;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -939,7 +943,7 @@ iframe, embed {
     margin: 0;
     text-align: center;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -963,7 +967,7 @@ iframe, embed {
     color: #000000;
     margin: 0 0 15px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -996,7 +1000,7 @@ iframe, embed {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -1349,7 +1353,7 @@ iframe, embed {
     font-size: 17px;
     line-height: 23px;
     padding: 23px 13px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -1424,7 +1428,7 @@ iframe, embed {
     font-size: 17px;
     line-height: 24px;
     padding: 23px 13px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -1515,7 +1519,7 @@ iframe, embed {
     font-size: 16px;
     line-height: 23px;
     padding: 24px 13px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -1600,7 +1604,7 @@ iframe, embed {
     display: block;
     color: #909090;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -1631,7 +1635,7 @@ iframe, embed {
     display: inline-block;
     vertical-align: middle;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -1718,7 +1722,7 @@ iframe, embed {
     line-height: 25px;
     padding: 21px 13px;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -1813,7 +1817,7 @@ iframe, embed {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -1878,7 +1882,7 @@ iframe, embed {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -1961,7 +1965,7 @@ iframe, embed {
     line-height: 25px;
     padding: 21px 13px;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -2040,7 +2044,7 @@ iframe, embed {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -2105,7 +2109,7 @@ iframe, embed {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -2170,7 +2174,7 @@ iframe, embed {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -2235,7 +2239,7 @@ iframe, embed {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -2300,7 +2304,7 @@ iframe, embed {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -2365,7 +2369,7 @@ iframe, embed {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -2462,7 +2466,7 @@ iframe, embed {
     border: 0;
     padding: 15px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -2587,7 +2591,7 @@ iframe, embed {
     line-height: 22px;
     padding: 5px 9px;
     color: #909090;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -2805,7 +2809,7 @@ iframe, embed {
     float: left;
     position: relative;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -3145,7 +3149,7 @@ iframe, embed {
     opacity: 0;
     visibility: hidden;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.5s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.5s ease 0s, visibility 0s ease 0s;
@@ -3201,7 +3205,7 @@ iframe, embed {
     font-size: 11px;
     line-height: 11px;
     color: #909090;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -3321,7 +3325,7 @@ iframe, embed {
     font-size: 11px;
     line-height: 11px;
     color: #909090;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -3595,7 +3599,7 @@ iframe, embed {
     line-height: 20px;
     color: #ffffff;
     margin: 0;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -3809,7 +3813,7 @@ iframe, embed {
     line-height: 24px;
     color: #909090;
     font-style: italic;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -3848,7 +3852,7 @@ iframe, embed {
     line-height: 24px;
     color: #333333;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -3954,7 +3958,7 @@ iframe, embed {
     color: #ffffff;
     text-align: center;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -3971,7 +3975,7 @@ iframe, embed {
     line-height: 28px;
     margin: 0;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -4413,7 +4417,7 @@ iframe, embed {
     line-height: 33px;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -4423,7 +4427,7 @@ iframe, embed {
     color: #ffffff;
     margin: 0;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -4854,7 +4858,7 @@ iframe, embed {
     line-height: 26px;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -4871,7 +4875,7 @@ iframe, embed {
     line-height: 26px;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -4898,7 +4902,7 @@ iframe, embed {
     color: #000000;
     margin: 0 0 50px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -4916,7 +4920,7 @@ iframe, embed {
     left: 15px;
     top: 12px;
     text-align: left;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -4932,7 +4936,7 @@ iframe, embed {
     border: 1px solid #e6e6e6;
     padding: 10px 16px;
     margin: 0 0 30px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -4956,7 +4960,7 @@ iframe, embed {
     background: none;
     padding: 0;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -5080,7 +5084,7 @@ iframe, embed {
     line-height: 33px;
     color: #ffffff;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -5090,7 +5094,7 @@ iframe, embed {
     color: #ffffff;
     margin: 0;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -5534,7 +5538,7 @@ iframe, embed {
     line-height: 20px;
     color: #909090;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -5580,7 +5584,7 @@ iframe, embed {
     line-height: 26px;
     color: #909090;
     border: 1px solid #e6e6e6;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     text-transform: uppercase;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -5680,7 +5684,7 @@ iframe, embed {
     padding: 1px 12px;
     display: none;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -6305,7 +6309,7 @@ iframe, embed {
     color: #909090;
     text-align: center;
     border: 1px solid #e6e6e6;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -6606,7 +6610,7 @@ iframe, embed {
     line-height: 24px;
     color: #333333;
     margin: 0 0 1px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -6817,7 +6821,7 @@ iframe, embed {
     width: 100%;
     max-width: 736px;
     margin: 0 auto 7px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -6870,7 +6874,7 @@ iframe, embed {
     position: absolute;
     top: 17px;
     left: 20px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -6910,25 +6914,25 @@ iframe, embed {
 
 .kopa-newsletter-widget .widget-content .inner ::-webkit-input-placeholder {
     color: #626262;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
 .kopa-newsletter-widget .widget-content .inner :-moz-placeholder {
     color: #626262;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
 .kopa-newsletter-widget .widget-content .inner ::-moz-placeholder {
     color: #626262;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
 .kopa-newsletter-widget .widget-content .inner :-ms-input-placeholder {
     color: #626262;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -7031,7 +7035,7 @@ iframe, embed {
     line-height: 20px;
     color: #000000;
     display: block;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -7095,7 +7099,7 @@ iframe, embed {
     margin: 0 0 7px;
     color: #000000;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -7115,7 +7119,7 @@ iframe, embed {
     color: #000000;
     margin: 0 0 10px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -7133,7 +7137,8 @@ iframe, embed {
  */
 .wrap-top-page {
     padding: 30px 0 33px;
-    background-color: #f9f9f9;
+    // background-color: #f9f9f9;
+    background-color: rgb(195, 208, 207);
     background-size: 100% auto;
 }
 
@@ -7157,7 +7162,7 @@ iframe, embed {
     margin: 0;
     color: #000000;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -7303,7 +7308,7 @@ html body .kopa-pagination > ul > li a, html body .kopa-pagination > ul > li spa
     -ms-border-radius: 50%;
     overflow: hidden;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -7335,7 +7340,7 @@ html body .kopa-pagination > ul .prev a, html body .kopa-pagination > ul .next a
     height: auto;
     border-radius: 0;
     background-repeat: no-repeat;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -7380,7 +7385,7 @@ html body .kopa-pagination > ul .current, html body .woocommerce-pagination > ul
     display: inline-block;
     vertical-align: middle;
     margin: 0 17px 0 0;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -7548,7 +7553,7 @@ html body .kopa-pagination > ul .current, html body .woocommerce-pagination > ul
     line-height: 24px;
     color: #ffffff;
     margin: 0 0 3px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -7600,7 +7605,7 @@ html body .kopa-pagination > ul .current, html body .woocommerce-pagination > ul
     display: block;
     padding: 5px 10px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -7907,7 +7912,7 @@ html body .kopa-pagination > ul .current, html body .woocommerce-pagination > ul
     overflow: hidden;
     display: block;
     color: #f9f9f9;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -7917,7 +7922,7 @@ html body .kopa-pagination > ul .current, html body .woocommerce-pagination > ul
     font-size: 14px;
     line-height: 22px;
     color: #f9f9f9 !important;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -8066,7 +8071,7 @@ html body .kopa-pagination > ul .current, html body .woocommerce-pagination > ul
     line-height: 22px;
     margin: 0 0 17px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -8107,7 +8112,7 @@ blockquote:before {
     padding: 3px 14px;
     margin: 2px 8px 8px 0;
     float: left;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
     text-transform: uppercase;
 }
@@ -8236,7 +8241,7 @@ html .alert-dismissable.alert span i {
     font-size: 14px;
     line-height: 22px;
     color: #000000;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -8295,7 +8300,7 @@ html .alert-dismissable.alert span i {
     margin: 0;
     padding: 9px 41px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -8332,7 +8337,7 @@ html .alert-dismissable.alert span i {
     line-height: 24px;
     padding: 9px 16px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -8380,7 +8385,7 @@ html .alert-dismissable.alert span i {
     line-height: 22px;
     margin: 0 0 17px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -8546,7 +8551,7 @@ html .alert-dismissable.alert span i {
     display: block;
     margin: 0 0 14px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -8614,7 +8619,7 @@ html .alert-dismissable.alert span i {
     left: 15px;
     top: -22px;
     text-align: left;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -8770,7 +8775,7 @@ html .alert-dismissable.alert span i {
     display: block;
     margin: 0 0 12px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -8821,7 +8826,7 @@ html .alert-dismissable.alert span i {
     line-height: 44px;
     color: #000000;
     margin: 0 0 20px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
     text-transform: uppercase;
     word-break: break-all;
@@ -8862,7 +8867,7 @@ html .alert-dismissable.alert span i {
     display: block;
     color: #000000;
     margin: 0 0 19px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -8933,7 +8938,7 @@ html .alert-dismissable.alert span i {
     font-size: 13px;
     line-height: 17px;
     color: #000000;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     text-transform: uppercase;
 }
@@ -8959,7 +8964,7 @@ html .alert-dismissable.alert span i {
     line-height: 26px;
     color: #000000;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -9081,7 +9086,7 @@ html .alert-dismissable.alert span i {
     color: #000000;
     margin: 0 5px 5px 0;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -9122,7 +9127,7 @@ html .alert-dismissable.alert span i {
     line-height: 26px;
     color: #000000;
     margin: 0 0 35px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
     text-transform: uppercase;
 }
@@ -9189,7 +9194,7 @@ html .alert-dismissable.alert span i {
     color: #000000;
     margin: 0 5px 5px 0;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -9265,7 +9270,7 @@ html .alert-dismissable.alert span i {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -9322,7 +9327,7 @@ html .alert-dismissable.alert span i {
     font-size: 13px;
     /*line-height: 17px;*/
     color: #909090;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     text-transform: uppercase;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -9353,7 +9358,7 @@ html .alert-dismissable.alert span i {
     color: #000000;
     margin: 0 0 50px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -9376,7 +9381,7 @@ html .alert-dismissable.alert span i {
     left: 15px;
     top: -22px;
     text-align: left;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -9392,7 +9397,7 @@ html .alert-dismissable.alert span i {
     border: 1px solid #e6e6e6;
     padding: 10px 16px;
     margin: 0 0 30px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
     transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -ms-transition: all 0.3s ease 0s, visibility 0s ease 0s;
@@ -9420,7 +9425,7 @@ html .alert-dismissable.alert span i {
     -webkit-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     -moz-transition: all 0.3s ease 0s, visibility 0s ease 0s;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -9548,7 +9553,7 @@ html .alert-dismissable.alert span i {
     line-height: 24px;
     color: #333333;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -9695,7 +9700,7 @@ html .alert-dismissable.alert span i {
     -ms-transform: rotate(-45deg);
     border-radius: 0;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -9813,7 +9818,7 @@ html .alert-dismissable.alert span i {
     border: 2px solid #000000;
     color: #000000;
     margin: 0 0 7px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -9851,7 +9856,7 @@ html .alert-dismissable.alert span i {
     display: block;
     padding: 10px 20px 8px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -9928,7 +9933,7 @@ html .alert-dismissable.alert span i {
     font-size: 20px;
     line-height: 25px;
     text-transform: none;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 300;
 }
 
@@ -9939,7 +9944,7 @@ html .alert-dismissable.alert span i {
 
 .woocommerce-page.woocommerce div.product .woocommerce-tabs .panel #reviews #review_form label {
     margin: 0 0 10px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
@@ -9991,7 +9996,7 @@ html .alert-dismissable.alert span i {
     color: #000000;
     margin: 0 0 20px;
     text-transform: uppercase;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 700;
 }
 
@@ -10113,7 +10118,7 @@ html .alert-dismissable.alert span i {
     color: #adadad;
     border: 0;
     padding: 15px;
-    font-family: Lato, sans-serif;
+    font-family: Georgia,Times,serif;
     font-weight: 400;
 }
 
